@@ -3,8 +3,7 @@ import { defineNuxtConfig } from 'nuxt'
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default defineNuxtConfig({
   components: false,
-  extends:['./src/app-1'],
-  srcDir: 'src/',
+  extends:['./app-1'],
   modules: ['@nuxtjs/tailwindcss','@nuxt/image-edge'],
   tailwindcss: {
     cssPath: '~/assets/css/main.css',
